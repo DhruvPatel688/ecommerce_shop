@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href = "/public/styles.css">
+    <link rel="stylesheet" href = "/public/products.css">
+    <link rel="stylesheet" href = "/public/draft1.css">
+    <script src = "products.js" async></script>
+    
+</head>
+    <body>
+        <script src="index.js"></script>
+        <div class = "container">
+            <aside>
+                <div class = "top">
+                    <div class="logo">
+                        <h1 >E<span class ="primary">magination</span></h1>
+                    </div>
+                    <div class = "close" id ="close-btn">
+                        <span class="material-symbols-outlined">
+                            close
+                            </span>
+                    </div>
+                </div>
+                
+                <div class = "sidebar">
+                    <a href = "/public/products.html">
+                        <span class="material-symbols-outlined">
+                            shop
+                            </span>
+                            <h3>Products</h3>
+                    </a>
+                </div>
+
+                <div class = "sidebar">
+                    <a href = "#">
+                        <span class="material-symbols-outlined">
+                            login
+                            </span>
+                            <h3>Login</h3>
+                    </a>
+                </div>
+
+                <div class = "sidebar">
+                    <a href = "#">
+                        <span class="material-symbols-outlined">
+                            logout
+                            </span>
+                            <h3>Logout</h3>
+                    </a>
+                </div>
+            
+            </div>
+        </aside>
+            <div class = "header">
+                <p class = "Logo">Logo</p>
+                <div class = "cart"><i class ="fa-solid fa-cart-shopping"></i><p id ="count">0</p> </div>
+            </div>
+        
+        </body>
+        <script>
+            var icon = document.getElementById("icon");
+            icon.onclick = function() {
+                document.body.classList.toggle("dark-theme-variables");
+            }
+        </script>
+    </html>

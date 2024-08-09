@@ -1,0 +1,18 @@
+.bigger{
+    font: 36px
+}
+
+.btn-button{
+    margin-top: 5rem;
+    margin-left: 25rem;
+    background-color: gold;
+    border-radius: 25%;
+    width: 20vh;
+}
+
+.btn-button :hover{
+  
+    background-color: yellow ;
+    border-radius: 25%;
+    
+}
